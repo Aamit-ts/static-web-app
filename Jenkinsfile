@@ -23,7 +23,7 @@ pipeline {
                 }
         }
         
-        post {
+        Post {
             always{
                 echo 'Clening up..'
                 CleanWs()
