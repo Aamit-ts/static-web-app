@@ -22,7 +22,7 @@ pipeline {
                     }
                 }
         }
-        
+    }  
         Post {
             always{
                 echo 'Clening up..'
@@ -35,6 +35,6 @@ pipeline {
                 echo 'Sending failure Notification'
             }
         }
-    }
+    
 }
 
