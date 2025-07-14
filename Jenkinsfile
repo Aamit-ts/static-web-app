@@ -28,7 +28,7 @@ pipeline {
         post {
             always{
                 echo 'Clening up..'
-                CleanWs()
+                cleanWs()
             }
             success{
                 echo 'Sending Sucess Notification'
