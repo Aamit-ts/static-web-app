@@ -22,8 +22,10 @@ pipeline {
                     }
                 }
         }
-    }  
-        Post {
+        
+		}
+		
+        post {
             always{
                 echo 'Clening up..'
                 CleanWs()
@@ -34,7 +36,6 @@ pipeline {
             failure{
                 echo 'Sending failure Notification'
             }
-        }
+          }
     
 }
-
